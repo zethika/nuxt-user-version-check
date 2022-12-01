@@ -1,0 +1,22 @@
+{
+    "name": "nuxt-user-version-check",
+    "version": "0.0.1",
+    "description": "Google Tag Manager Module for Nuxt.js",
+    "license": "MIT",
+    "main": "lib/module.js",
+    "repository": "nuxt-community/gtm-module",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "release": "standard-version && git push --follow-tags && npm publish"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@nuxtjs/module-test-utils": "latest",
+        "standard-version": "latest"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
