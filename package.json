@@ -1,6 +1,6 @@
 {
     "name": "@zethika/nuxt-user-version-check",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Google Tag Manager Module for Nuxt.js",
     "license": "MIT",
     "main": "lib/module.js",
