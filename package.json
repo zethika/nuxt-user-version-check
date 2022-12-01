@@ -1,33 +1,37 @@
 {
-  "name": "@zethika/nuxt-user-version-check",
-  "version": "0.0.3",
-  "description": "Google Tag Manager Module for Nuxt.js",
-  "license": "MIT",
-  "main": "lib/module.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zethika/nuxt-user-version-check.git"
-  },
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "release": "standard-version && git push --follow-tags && npm publish"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@nuxtjs/module-test-utils": "latest",
-    "standard-version": "latest"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "bugs": {
-    "url": "https://github.com/zethika/nuxt-user-version-check/issues"
-  },
-  "homepage": "https://github.com/zethika/nuxt-user-version-check#readme",
-  "directories": {
-    "lib": "lib"
-  },
-  "author": ""
+    "name": "@zethika/nuxt-user-version-check",
+    "version": "0.0.3",
+    "description": "Google Tag Manager Module for Nuxt.js",
+    "license": "MIT",
+    "main": "lib/module.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zethika/nuxt-user-version-check.git"
+    },
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "dev": "nuxt example",
+        "release": "standard-version && git push --follow-tags && npm publish"
+    },
+    "dependencies": {
+        "cookie-universal-nuxt": "^2.2.2"
+    },
+    "devDependencies": {
+        "@nuxtjs/module-test-utils": "latest",
+        "standard-version": "latest",
+        "nuxt-edge": "latest"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "bugs": {
+        "url": "https://github.com/zethika/nuxt-user-version-check/issues"
+    },
+    "homepage": "https://github.com/zethika/nuxt-user-version-check#readme",
+    "directories": {
+        "lib": "lib"
+    },
+    "author": ""
 }
